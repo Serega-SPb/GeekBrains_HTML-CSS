@@ -1,4 +1,93 @@
+/*global style*/
 .block{
     vertical-align: top;
     display: inline-block;
+}
+body{
+    background-color: #f8f8f8
+}
+
+ul.main-menu{
+    list-style-type: none;
+}
+li.menu-item{
+    display: inline;
+    margin: 15px;
+    border: 1px solid;
+    padding: 5px;
+    background-color: lightgray
+}
+a.menu-item{
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+/*catalog*/
+.img-preview{
+    width: 150px;
+}
+.ctg-item{
+    text-align: center;
+    color: mediumblue;
+    font-weight: 600;
+    margin: 5px;
+}
+
+/*product*/
+.pr-img{
+    margin: 5px;
+    border: 3px solid gray;
+    width: 300px
+}
+.pr-header{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea
+}
+.pr-desc{
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.pr-fulldesc{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.pr-spec{
+    font-style: oblique;
+    font-weight: 800;
+    padding-left: 15px;
+    list-style-image: url(../content/imgs/mark.png);
+}
+
+/*contacts*/
+.cont-feedback{
+    width: 450px
+}
+.cont-input{
+    margin: 5px;
+    width: 200px;
+    height: 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.cont-mes{
+    width: 250px;
+    height: 150px;
+}
+.cont-btn{
+    width: 125px;
+    height: 25px
 }
