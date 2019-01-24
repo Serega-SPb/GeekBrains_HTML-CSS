@@ -9,18 +9,44 @@ body{
 
 ul.main-menu{
     list-style-type: none;
+    vertical-align: bottom;
 }
 li.menu-item{
     display: inline;
     margin: 15px;
-    border: 1px solid;
-    padding: 5px;
+    outline: 1px solid;
+    padding: 5px 0px;
     background-color: lightgray
 }
 a.menu-item{
     font-size: 20px;
     text-decoration: none;
     color: blue;
+    padding: 5px 10px;
+}
+li.menu-item:hover{
+    background: blue;
+}
+a.menu-item:hover{
+    color: white;
+}
+.logo{
+    border-radius: 50%;
+}
+.temp-table{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-collapse: collapse;     
+}
+.temp-tr:first-child{
+    height: 15px;    
+}
+.temp-tr:last-child{
+    height: 15px;    
+}
+.temp-td{
+    border: 1px solid black;
 }
 
 /*catalog*/
@@ -37,14 +63,21 @@ a.menu-item{
 /*product*/
 .pr-img{
     margin: 5px;
-    border: 3px solid gray;
+    outline: 3px solid gray;
     width: 300px
+}
+.pr-img:hover{
+    outline: 0px
 }
 .pr-header{
     color: black;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea
+}
+p.capit-letter::first-letter{
+    font: 20px bold arial;
+    color: blue;
 }
 .pr-desc{
     margin: 0px;
@@ -68,10 +101,26 @@ a.menu-item{
     padding-left: 15px;
     list-style-image: url(../content/imgs/mark.png);
 }
+.pr-spec-table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}
+.pr-spec-td{
+    border: 1px solid black;
+    padding: 3px;
+}
 
 /*contacts*/
 .cont-feedback{
     width: 450px
+}
+.cont-email:focus{
+    color: lime;
+    background: black
+}
+.cont-text{
+    text-transform: capitalize;
 }
 .cont-input{
     margin: 5px;
