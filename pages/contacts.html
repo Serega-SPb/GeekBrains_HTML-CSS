@@ -6,9 +6,12 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <div>
-        <h3>Меню сайта</h3>
-        <ul>
+    <div class="header">
+        <a class="block" href="../index.html" title="Главная">
+            <img class="logo" src="../content/imgs/temp_logo.png" alt="logo">
+        </a>
+        
+        <ul class="block main-menu">
             <li class="menu-item"><a class="menu-item" href="../index.html">Главная</a></li>
             <li class="menu-item"><a class="menu-item" href="catalog.html">Каталог</a></li>
             <li class="menu-item"><a class="menu-item" href="contacts.html">Контакты</a></li>
@@ -20,12 +23,12 @@
         <form action="#">
             
             <span>Имя</span>
-            <input class="cont-input" type="text" placeholder="Name" required> <br>
+            <input class="cont-input cont-text" type="text" placeholder="Name" required> <br>
             <span>Email</span>
-            <input class="cont-input" type="email" placeholder="example@mail.com" required> <br>
+            <input class="cont-input cont-email" type="email" placeholder="example@mail.com" required> <br>
             <span>Тема</span>
-            <input class="cont-input" type="text" placeholder="Message subject"> <br>
-            <textarea class="cont-mes" placeholder="Message" required></textarea> <br>
+            <input class="cont-input cont-text" type="text" placeholder="Message subject"> <br>
+            <textarea class="cont-mes cont-text" placeholder="Message" required></textarea> <br>
 
             <input type="submit" class="block cont-btn" value="Submit">
             <input type="reset" class="block cont-btn" value="Clear">
@@ -45,7 +48,7 @@
     </div>
 
     <hr>
-    <div>
+    <div class="footer">
         <p>&copy; Все права защищены.</p>
     </div>
 </body>
