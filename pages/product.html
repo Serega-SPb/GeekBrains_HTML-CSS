@@ -6,49 +6,55 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <div class="header">
-        <a class="block" href="../index.html" title="Главная">
-            <img class="logo" src="../content/imgs/temp_logo.png" alt="logo">
-        </a>
-        
-        <ul class="block main-menu">
-            <li class="menu-item"><a class="menu-item" href="../index.html">Главная</a></li>
-            <li class="menu-item"><a class="menu-item" href="catalog.html">Каталог</a></li>
-            <li class="menu-item"><a class="menu-item" href="contacts.html">Контакты</a></li>
-        </ul>
-    </div>
-    <hr>
-
-    <div>
-        <h2>PRODUCT_NAME</h2>
-        <div class="block">
-            <a href="#" target="_blank">
-                <img class="pr-img" src="#" alt="product image">
+    <div class="container">
+        <div class="header">
+            <a href="../index.html" title="Главная">
+                <img class="logo" src="../content/imgs/temp_logo.png" alt="logo">
             </a>
-        </div>
-        <div class="block">
-            <h3 class="pr-header">Описание товара</h3>
-            <ul class="pr-desc">
-
+            
+            <ul class="main-menu">
+                <li class="menu-item"><a class="menu-item" href="../index.html">Главная</a></li>
+                <li class="menu-item"><a class="menu-item" href="catalog.html">Каталог</a></li>
+                <li class="menu-item"><a class="menu-item" href="contacts.html">Контакты</a></li>
             </ul>
-            <h3 class="pr-header">Характеристики товара</h3>
-            <ul class="pr-spec">
-
-            </ul>
-            <!--table.pr-spec-table>tbody>tr*4>td.pr-spec-td*2-->
-
         </div>
-        <div>
-            <h3 class="pr-header">Подробное описание товара</h3>
-            <p class="pr-fulldesc capit-letter">
-                
-            </p>
+        
+        <div class="content pr-content">
+            <h2 class="pr-block pr-head-block">PRODUCT_NAME</h2>
+            <div class="pr-block pr-img-block">
+                <a href="#" target="_blank">
+                    <img class="pr-img" src="#" alt="product image">
+                </a>
+            </div>
+            <div class="pr-block pr-desc-block">
+                <h3 class="pr-header">Описание товара</h3>
+                <ul class="pr-desc">
+        
+                </ul>
+                <h3 class="pr-header">Характеристики товара</h3>
+                <ul class="pr-spec">
+        
+                </ul>
+                <!--table.pr-spec-table>tbody>tr*4>td.pr-spec-td*2-->
+        
+            </div>
+            <div class="pr-block pr-buy-block">
+                <p class="price">PRICE</p>
+                <button class="buy-btn" value="Купить">
+                    <h2>КУПИТЬ</h2>
+                </button>
+            </div>
+            <div class="pr-block pr-fulldesc-block">
+                <h3 class="pr-header">Подробное описание товара</h3>
+                <p class="pr-fulldesc capit-letter">
+                    
+                </p>
+            </div>
         </div>
-    </div>
-
-    <hr>
-    <div class="footer">
-        <p>&copy; Все права защищены.</p>
+        
+        <div class="footer">
+            <p class="copyright">&copy; Все права защищены.</p>
+        </div>
     </div>
 </body>
 </html>
